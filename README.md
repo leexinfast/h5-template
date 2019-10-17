@@ -1,4 +1,4 @@
-# efb
+# h5-template
 
 ## Project setup
 ```
