@@ -20,3 +20,4 @@ yarn-error.log*
 *.sln
 *.sw?
 git-shell.sh
+node_modules.zip
