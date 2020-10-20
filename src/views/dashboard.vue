@@ -19,7 +19,11 @@
             }
         },
         mounted() {
-
+            dd.biz.navigation.setTitle({
+                title: '邮箱正文',
+                onSuccess: function(data) {},
+                onFail: function(error) {}
+            })
         },
         filters: {},
         methods: {

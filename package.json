@@ -11,6 +11,7 @@
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
     "fastclick": "^1.0.6",
+    "google-translate-api": "^2.3.0",
     "postcss-pxtorem": "^4.0.1",
     "qs": "^6.9.0",
     "vant": "^2.2.7",

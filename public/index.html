@@ -10,6 +10,7 @@
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="./jsbridge.js"></script>
     <title>h5-template</title>
 </head>
 <body>
@@ -17,6 +18,19 @@
     <strong>We're sorry but efb doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
 </noscript>
 <div id="app"></div>
+<script>
+    window.onload = function() {
+        dd.ready({
+            developer: 'daip@dtdream.com',
+            usage: [
+                'dd.biz.navigation.setTitle',
+            ],
+            remark: '描述业务场景'
+        }, function() {
+            console.log('ready')
+        });
+    }
+</script>
 <!-- built files will be auto injected -->
 </body>
 </html>
